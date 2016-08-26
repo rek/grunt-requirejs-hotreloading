@@ -1,0 +1,28 @@
+{
+  "name": "grunt-requirejs-hotreloading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rek/grunt-requirejs-hotreloading.git"
+  },
+  "author": "Adam Tombleson <rekarnar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rek/grunt-requirejs-hotreloading/issues"
+  },
+  "homepage": "https://github.com/rek/grunt-requirejs-hotreloading#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "events": "^1.1.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "socket.io": "^1.4.8"
+  }
+}
