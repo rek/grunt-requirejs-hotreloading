@@ -40,7 +40,7 @@ function(io, _) {
 					// callback(null, module);
 
 					require(['app'], (App) => { // I have a module '#allViews' that contains all my front-end views
-						// console.log('App', App);
+						console.log('App', App);
 						let splitKeys = fileKey.split('/')
 						console.log('Keys', splitKeys);
 						console.log(splitKeys.slice(1));
@@ -61,6 +61,8 @@ function(io, _) {
 
 							// reload the current page
 							Backbone.history.loadUrl(Backbone.history.fragment);
+						} else {
+							console.log('Module not found')
 						}
 					});
 
